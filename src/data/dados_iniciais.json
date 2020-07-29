@@ -1,7 +1,7 @@
 {
   "categorias": [
     {
-      "titulo": "Front End",
+      "titulo": "Aventura",
       "link": "https://www.alura.com.br/formacao-front-end",
       "cor": "#6BD1FF",
       "link_extra": {
@@ -44,7 +44,7 @@
       ]
     },
     {
-      "titulo": "Back End",
+      "titulo": "Fantasia",
       "cor": "#00C86F",
       "link_extra": {
         "text": "Cursos de Back End na Alura",
@@ -74,7 +74,7 @@
       ]
     },
     {
-      "titulo": "Data Science e Inteligência Artificial",
+      "titulo": "Ação",
       "cor": "#9cd33b",
       "link_extra": {
         "text": "Cursos de Data Science na Alura",
@@ -122,7 +122,7 @@
       ]
     },
     {
-      "titulo": "Games",
+      "titulo": "Romance",
       "cor": "red",
       "link_extra": {
         "text": "Formação de Jogos na Alura",
