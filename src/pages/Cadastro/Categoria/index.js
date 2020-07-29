@@ -1,23 +1,90 @@
-import React from 'react';
+import React, { useState } from 'react';
 import PageDefault from '../../../components/PageDefault';
 import { Link } from 'react-router-dom';
+import { TextField, FormField } from '../../../components/FormField';
 
 function CadastroCategoria() {
-    return (
-      <PageDefault>
-        
-      <h1>Cadastro de Categoria</h1>
+  
+  const valoresIniciais = {
+    nome: '',
+    descricao: '',
+    cor: '#000000',
+  }
+  const [categorias, setCategorias] = useState([]);
+  const [values, setValues] =  useState(valoresIniciais);
+  
+  
 
-        <form>
-          <label>
-            Nome da Categoria:
-            <input type="text"/>
-          </label>
+  function setValue(chave,valor){
+    setValues({
+      ...values,
+      [chave]: valor,
+    })
+  }
+
+  function handleChange(infosDoEvento) {
+    setValue(
+       infosDoEvento.target.getAttribute('name'),
+       infosDoEvento.target.value
+       );
+      }
+
+  return (
+  
+  <PageDefault>
+        
+    <h1>Cadastro de Categoria: {values.nome} </h1>
+
+        <form onSubmit={function handleSubmit(infosDoEvento) {
+          infosDoEvento.preventDefault();
+          setCategorias([
+            ...categorias,
+            values
+          ]);
+          setValues(valoresIniciais)
+        }}>
+
+    <FormField
+        label="Nome da Categoria:"
+        type="text"
+        name="nome"
+        value={values.nome}
+        onChange={handleChange}
+    />
+
+
+    <TextField 
+      label="Descrição"
+      type="textarea"
+      name="descricao"
+      value={values.descricao}
+      onChange={handleChange}
+    
+    />   
+
+    <FormField 
+      label="Cor:"
+      type="color"
+      name="cor"
+      value={values.cor}
+      onChange={handleChange}
+    />
 
           <button>
             Cadastrar
-          </button>      
+          </button>
+
         </form>
+
+        <ul>
+          {categorias.map((categoria, indice) => {
+            return(
+              <li key={`${categoria}${indice}`}>  
+              {categoria.nome}
+              </li>
+             );
+          })}
+        </ul>
 
         <Link to="/">Ir para home</Link>
 
