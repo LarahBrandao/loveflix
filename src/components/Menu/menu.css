@@ -8,7 +8,7 @@
     }
   }
   
-  .Menu {
+.Menu {
     width: 100%;
     height: 94px;
     z-index: 100;
@@ -26,8 +26,8 @@
   
     background: var(--black);
     border-bottom: 2px solid var(--primary);
-  }
-  body {
+}
+body {
     --bodyPaddingTop: 94px;
     padding-top: var(--bodyPaddingTop);
   }
