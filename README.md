@@ -1,68 +1,89 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h3 align="center">
+    <img alt="Logo" title="#logo" width="300px" src="">
+</h3>
 
-## Available Scripts
 
-In the project directory, you can run:
+# Índice
 
-### `npm start`
+- [Sobre](#sobre)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Como Usar](#como-usar)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<a id="sobre"></a>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## :bookmark: Sobre
 
-### `npm test`
+O <strong>LoveFlix</strong> é uma aplicação Web voltada para fins de entreterimento
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Aplicação que visa ajudar o meio ambiente ao promover pontos de coleta de resíduos que não deveriam ser jogados no lixo comum.
 
-### `npm run build`
+Essa aplicação foi construída na trilha <strong>Booster</strong> da <strong>Next Level Week</strong> distribuída pela [Rocketseat](https://rocketseat.com.br/).</strong>
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<a id="tecnologias-utilizadas"></a>
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## :rocket: Tecnologias Utilizadas
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+O projeto foi desenvolvido utilizando as seguintes tecnologias
 
-### `npm run eject`
+- [TypeScript](https://www.typescriptlang.org/)
+- [Node.js](https://nodejs.org/en/)
+- [ReactJS](https://reactjs.org/)
+- [React Native](https://reactnative.dev/)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## :heavy_check_mark: :computer: Layout Web
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<h1 align="center">
+    <img alt="Web" src=".github/Ecoleta.gif"900px">
+</h1>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## :heavy_check_mark: :iphone: Layout Mobile
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<h1 align="center">
+    <img alt="" src=".github/home.jpeg" width="300px">
+    <img alt="" src=".github/page.jpeg" width="300px">
+</h1>
 
-## Learn More
+<a id="como-usar"></a>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## :fire: Como usar
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Faça um clone :
 
-### Code Splitting
+```sh
+  $ https://github.com/LarahBrandao/Ecoleta
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+2. Executando a Aplicação:
 
-### Analyzing the Bundle Size
+```sh
+  # Instale as dependências
+  $ npm install
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+  ## Crie o banco de dados
+  $ cd server
+  $ npm run knex:migrate
+  $ npm run knex:seed
 
-### Making a Progressive Web App
+  # Inicie a API
+  $ npm run dev
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+  # Inicie a aplicação web
+  $ cd web
+  $ npm start
 
-### Advanced Configuration
+  # Inicie a aplicação mobile
+  $ cd mobile
+  $ npm start
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-### Deployment
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+## :memo: License
 
-### `npm run build` fails to minify
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+---
+
+<h4 align="center">
+   🌹 Feito por <a href="https://www.linkedin.com/in/larahbrandao/" target="_blank">Larah Brandão</a> ❤️
+</h4>
