@@ -22,6 +22,7 @@ function CadastroCategoria() {
     })
   }
 
+
   function handleChange(infosDoEvento) {
     setValue(
        infosDoEvento.target.getAttribute('name'),
