@@ -3,7 +3,7 @@
     {
       "titulo": "Músicas Destaque",
       "link": "",
-      "cor": "#000000",
+      "cor": "#141414",
       "link_extra": {
         "text": "",
         "url": ""
@@ -95,6 +95,10 @@
         {
           "titulo": "Interestellar",
           "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+        },
+        {
+          "titulo": "A Origem",
+          "url": "https://www.youtube.com/watch?v=HiixbtN-O24"
         }
       ]
     },
@@ -107,8 +111,8 @@
       },
       "videos": [
         {
-          "titulo": "Final Fantasy 7",
-          "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+          "titulo": "CHVRCHES - Forever",
+          "url": "https://www.youtube.com/watch?v=RJdOYscmlyo"
         }
       ]
     },
@@ -121,8 +125,8 @@
       },
       "videos": [
         {
-          "titulo": "Como estudar melhor?",
-          "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
+          "titulo": "Rise Of The Tomb Raider",
+          "url": "https://www.youtube.com/watch?v=gsplhPETREg"
         }
       ]
     }

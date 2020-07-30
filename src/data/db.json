@@ -1,0 +1,40 @@
+{
+    "categorias": [
+        {
+            "id": 1,
+            "nome": "Músicas Destaque",
+            "descricao": "Destaques selecionados para você ouvir",
+            "cor": "#141414"
+        },
+        {
+            "id": 2,
+            "nome": "Performances",
+            "descricao": "Performances de vários artistas",
+            "cor": "#141414"
+        },
+        {
+            "id": 3,
+            "nome": "Anos 80",
+            "descricao": "Seleção com as melhores dos Anos 80",
+            "cor": "#141414"
+        },
+        {
+            "id": 4,
+            "nome": "Músicas Indicadas",
+            "descricao": "Algumas indicações para você descobrir novos artistas",
+            "cor": "#141414"
+        },
+        {
+            "id": 5,
+            "nome": "Filmes Indicados",
+            "descricao": "Indicações de filmes de diversos gêneros",
+            "cor": "#141414"
+        },
+        {
+            "id": 6,
+            "nome": "Gameplay",
+            "descricao": "Gameplays de diversos jogos e diferentes gêneros",
+            "cor": "#141414"
+        }
+    ]
+}

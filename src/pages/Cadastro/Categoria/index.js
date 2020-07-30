@@ -1,14 +1,15 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import PageDefault from '../../../components/PageDefault';
 import { Link } from 'react-router-dom';
 import { TextField, FormField } from '../../../components/FormField';
+import Button from '../../../components/Button';
 
 function CadastroCategoria() {
   
   const valoresIniciais = {
     nome: '',
     descricao: '',
-    cor: '#000000',
+    cor: '#141414',
   }
   const [categorias, setCategorias] = useState([]);
   const [values, setValues] =  useState(valoresIniciais);
@@ -30,6 +31,18 @@ function CadastroCategoria() {
        );
       }
 
+  useEffect( () => {
+    const URL = "http://localhost:8080/categorias"
+    fetch(URL).then(async(respostaDoServer) => {
+      if(respostaDoServer.ok) {
+        const resposta = await respostaDoServer.json();
+        setCategorias(resposta);
+        return;
+      }
+      throw new Error('Não foi possível pegar os dados do servidor')
+    } );
+  },[] );
+
   return (
   
   <PageDefault>
@@ -46,7 +59,7 @@ function CadastroCategoria() {
         }}>
 
     <FormField
-        label="Nome da Categoria:"
+        label="Nome da Categoria"
         type="text"
         name="nome"
         value={values.nome}
@@ -60,20 +73,19 @@ function CadastroCategoria() {
       name="descricao"
       value={values.descricao}
       onChange={handleChange}
-    
     />   
 
-    <FormField 
+{/*     <FormField 
       label="Cor:"
       type="color"
       name="cor"
       value={values.cor}
       onChange={handleChange}
-    />
+    /> */}
 
-          <button>
+          <Button>
             Cadastrar
-          </button>
+          </Button>
 
         </form>
 

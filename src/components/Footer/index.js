@@ -1,11 +1,12 @@
 import React from 'react';
+import Logo from '../../assets/images/loveflix@logo.png';
 import { FooterBase } from './styles';
 
 function Footer() {
   return (
     <FooterBase>
-      <a href="https://www.alura.com.br/">
-        <img src="https://www.alura.com.br/assets/img/alura-logo-white.1570550707.svg" alt="Logo Alura" />
+      <a href="https://loveflix.vercel.app/">
+        <img src={Logo} alt="Logo LoveFlix" />
       </a>
       <p>
         Orgulhosamente criado durante a
