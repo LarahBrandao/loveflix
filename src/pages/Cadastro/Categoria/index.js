@@ -32,7 +32,7 @@ function CadastroCategoria() {
       }
 
   useEffect( () => {
-    const URL = "http://localhost:8080/categorias"
+    const URL = "https://loveflix-server.herokuapp.com/categorias"
     fetch(URL).then(async(respostaDoServer) => {
       if(respostaDoServer.ok) {
         const resposta = await respostaDoServer.json();
