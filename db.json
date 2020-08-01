@@ -181,18 +181,6 @@
       "categoriaId": 5,
       "titulo": "Knives Out (Entre Facas)",
       "url": "https://www.youtube.com/watch?v=xi-1NchUqMA"
-    },
-    {
-      "id": 23,
-      "categoriaId": 6,
-      "titulo": "Rise Of The Tomb Raider",
-      "url": "https://www.youtube.com/watch?v=gsplhPETREg"
-    },
-    {
-      "id": 24,
-      "categoriaId": 6,
-      "titulo": "GROUNDED",
-      "url": "https://www.youtube.com/watch?v=XHM-CofXikk"
     }
   ]
 }
