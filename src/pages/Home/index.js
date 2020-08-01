@@ -25,9 +25,9 @@ function Home() {
    // <PageDefault paddingAll={0}>
   
   <div style={{background: "#141414"}}>
-
+ 
    <Menu />
-     {dadosIniciais.length === 0 && (<div>Carregando página...</div>)}
+   {dadosIniciais.length === 0 && (<div>Carregando página...</div>)}
 
       {dadosIniciais.map((categoria, indice) => {
         if (indice === 0) {

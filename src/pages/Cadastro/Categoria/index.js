@@ -1,17 +1,19 @@
 import React, { useState, useEffect } from 'react';
 import PageDefault from '../../../components/PageDefault';
-/* import { Link } from 'react-router-dom'; */
+import { useHistory } from 'react-router-dom';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
 import useForm from '../../../hooks/useForm';
+import categoriasRepository from '../../../repositories/categorias';
 
 
 function CadastroCategoria() {
+  const history = useHistory();
   
   const valoresIniciais = {
     titulo: '',
     descricao: '',
-    cor: '#000000',
+    cor: '#141414',
   }
 
   const { handleChange, values, clearForm } =  useForm(valoresIniciais);
@@ -45,7 +47,17 @@ function CadastroCategoria() {
             ...categorias,
             values
           ]);
-          clearForm()
+          clearForm();
+
+          categoriasRepository.create({
+            titulo: values.titulo,
+            descricao: values.descricao,
+            cor: '#141414'
+          })
+          .then( () => {
+            console.log('Cadastrou com sucesso')
+            history.push('/');
+          });
         }}>
 
     <FormField

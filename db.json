@@ -4,37 +4,37 @@
       "id": 1,
       "titulo": "Músicas Destaque",
       "descricao": "Destaques selecionados para você ouvir",
-      "cor": "#000000"
+      "cor": "#141414"
     },
     {
       "id": 2,
       "titulo": "Performances",
       "descricao": "Performances de vários artistas",
-      "cor": "#000000"
+      "cor": "#141414"
     },
     {
       "id": 3,
       "titulo": "Anos 80",
       "descricao": "Seleção com as melhores dos Anos 80",
-      "cor": "#000000"
+      "cor": "#141414"
     },
     {
       "id": 4,
       "titulo": "Músicas Indicadas",
       "descricao": "Algumas indicações para você descobrir novos artistas",
-      "cor": "#000000"
+      "cor": "#141414"
     },
     {
       "id": 5,
       "titulo": "Filmes Indicados",
       "descricao": "Indicações de filmes de diversos gêneros",
-      "cor": "#000000"
+      "cor": "#141414"
     },
     {
       "id": 6,
       "titulo": "Gameplay",
       "descricao": "Gameplays de diversos jogos e diferentes gêneros",
-      "cor": "#000000"
+      "cor": "#141414"
     }
   ],
   "videos": [
