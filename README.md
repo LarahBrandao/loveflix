@@ -1,5 +1,5 @@
 <h3 align="center">
-    <img alt="Logo" title="#logo" width="300px" src="./assets/images/loveflix@logo.png">
+    <img alt="Logo" title="#logo" width="300px" src="src/assets/images/loveflix@logo.png">
 </h3>
 
 
