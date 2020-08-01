@@ -46,7 +46,7 @@ function CadastroCategoria() {
      } 
      alert('Categoria deletada com sucesso!')
    }
-  
+
 
 
   return (
