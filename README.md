@@ -34,7 +34,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 1. Faça um clone :
 
 ```sh
-  $ https://github.com/LarahBrandao/loveflix
+  $ https://github.com/LarahBrandao/loveflix.git
 ```
 
 2. Executando a Aplicação:
