@@ -35,6 +35,12 @@
       "titulo": "Gameplay",
       "descricao": "Gameplays de diversos jogos e diferentes gêneros",
       "cor": "#141414"
+    },
+    {
+      "id":7,
+      "titulo":"Justin Bieber",
+      "descricao":"Músicas do Justin Bieber",
+      "cor":"#141414"
     }
   ],
   "videos": [
@@ -181,6 +187,30 @@
       "categoriaId": 5,
       "titulo": "Knives Out (Entre Facas)",
       "url": "https://www.youtube.com/watch?v=xi-1NchUqMA"
+    },
+    {
+      "id": 23,
+      "categoriaId":6,
+      "titulo":"Rise Of The Tomb Raider",
+      "url": "https://www.youtube.com/watch?v=gsplhPETREg"
+    },
+    {
+      "id": 24,
+      "categoriaId":7,
+      "titulo":"Justin Bieber - One Time Acustic",
+      "url": "https://www.youtube.com/watch?v=fRaWDue13nU"
+    },
+    {
+      "id": 25,
+      "categoriaId":7,
+      "titulo":"All in It",
+      "url": "https://www.youtube.com/watch?v=C8Z-h6xQ_s8"
+    },
+    {
+      "id": 26,
+      "categoriaId":7,
+      "titulo":"Come Around Me",
+      "url": "https://www.youtube.com/watch?v=GtDwH6fPRMA"
     }
   ]
 }

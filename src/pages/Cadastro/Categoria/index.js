@@ -35,7 +35,7 @@ function CadastroCategoria() {
   },[] );
   
   async function handleDeleteCategoria(id) {
-      try {
+   /*    try {
        await fetch(`${URL}/${id}`, {
          method: 'DELETE',
        });
@@ -43,8 +43,8 @@ function CadastroCategoria() {
        setCategorias(categorias.filter(categoria => categoria.id !== id));
      } catch (err) {
        alert('Erro ao deletar caso, tente novamente')
-     } 
-     alert('Categoria deletada com sucesso!')
+     }  */
+     alert('Ooops! Você não têm permisão para deletar categorias.')
    }
 
 
