@@ -18,6 +18,10 @@
           "url": "https://www.youtube.com/watch?v=Ph54wQG8ynk"
         },
         {
+          "titulo":"Marshmello & Halsey - Be Kind",
+          "url":"https://www.youtube.com/watch?v=ePao0cTGG-o"
+        },
+        {
           "titulo": "The Weeknd - In Your Eyes",
           "url": "https://www.youtube.com/watch?v=dqRZDebPIGs"
         },
@@ -85,6 +89,10 @@
         {
           "titulo": "Michael Jackson - Bille Jean",
           "url": "https://www.youtube.com/watch?v=Zi_XLOBDo_Y"
+        },
+        {
+          "titulo":"Madonna - Like a Virgin",
+          "url":"https://www.youtube.com/watch?v=s__rX_WL100"
         }
       ]
     },
@@ -99,6 +107,10 @@
         {
           "titulo": "A Origem",
           "url": "https://www.youtube.com/watch?v=HiixbtN-O24"
+        },
+        {
+          "titulo":"Knives Out (Entre Facas)",
+          "url":"https://www.youtube.com/watch?v=xi-1NchUqMA"
         }
       ]
     },
@@ -113,6 +125,22 @@
         {
           "titulo": "CHVRCHES - Forever",
           "url": "https://www.youtube.com/watch?v=RJdOYscmlyo"
+        },
+        {
+          "titulo":"Chelsea Collins - Britney 07",
+          "url":"https://www.youtube.com/watch?v=JnxBSPBlzyE"
+        },
+        {
+          "titulo":"Ally Brooke & Messiah - 500 Veces",
+          "url":"https://www.youtube.com/watch?v=J8F1GzlfiSg"
+        },
+        {
+          "titulo":"Noah Cyrus - Lonely",
+          "url":"https://www.youtube.com/watch?v=JhvyWCyXuqg"
+        },
+        {
+          "titulo":"Post Malone - GoodByes ft. Young Thung",
+          "url":"https://www.youtube.com/watch?v=ba7mB8oueCY"
         }
       ]
     },
@@ -127,6 +155,10 @@
         {
           "titulo": "Rise Of The Tomb Raider",
           "url": "https://www.youtube.com/watch?v=gsplhPETREg"
+        },
+        {
+          "titulo":"GROUNDED",
+          "url":"https://www.youtube.com/watch?v=XHM-CofXikk"
         }
       ]
     }

@@ -1,73 +1,61 @@
 import React, { useState, useEffect } from 'react';
 import PageDefault from '../../../components/PageDefault';
-import { Link } from 'react-router-dom';
-import { TextField, FormField } from '../../../components/FormField';
+/* import { Link } from 'react-router-dom'; */
+import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
+import useForm from '../../../hooks/useForm';
+
 
 function CadastroCategoria() {
   
   const valoresIniciais = {
-    nome: '',
+    titulo: '',
     descricao: '',
-    cor: '#141414',
+    cor: '#000000',
   }
+
+  const { handleChange, values, clearForm } =  useForm(valoresIniciais);
+
   const [categorias, setCategorias] = useState([]);
-  const [values, setValues] =  useState(valoresIniciais);
   
-  
-
-  function setValue(chave,valor){
-    setValues({
-      ...values,
-      [chave]: valor,
-    })
-  }
-
-
-  function handleChange(infosDoEvento) {
-    setValue(
-       infosDoEvento.target.getAttribute('name'),
-       infosDoEvento.target.value
-       );
-      }
-
   useEffect( () => {
-    const URL = "https://loveflix-server.herokuapp.com/categorias"
+    const URL = window.location.hostname.includes('localhost')
+    ? "http://localhost:8080/categorias"
+    : "https://loveflix-server.herokuapp.com/categorias"
     fetch(URL).then(async(respostaDoServer) => {
       if(respostaDoServer.ok) {
         const resposta = await respostaDoServer.json();
         setCategorias(resposta);
         return;
       }
-      throw new Error('Não foi possível pegar os dados do servidor')
     } );
   },[] );
+  
+
 
   return (
   
   <PageDefault>
         
-    <h1>Cadastro de Categoria: {values.nome} </h1>
+    <h1>Cadastro de Categoria: {values.titulo} </h1>
 
-        <form onSubmit={function handleSubmit(infosDoEvento) {
+  <form onSubmit={function handleSubmit(infosDoEvento) {
           infosDoEvento.preventDefault();
           setCategorias([
             ...categorias,
             values
           ]);
-          setValues(valoresIniciais)
+          clearForm()
         }}>
 
     <FormField
         label="Nome da Categoria"
-        type="text"
-        name="nome"
-        value={values.nome}
+        name="titulo"
+        value={values.titulo}
         onChange={handleChange}
     />
 
-
-    <TextField 
+    <FormField
       label="Descrição"
       type="textarea"
       name="descricao"
@@ -90,16 +78,14 @@ function CadastroCategoria() {
         </form>
 
         <ul>
-          {categorias.map((categoria, indice) => {
+          {categorias.map((categoria) => {
             return(
-              <li key={`${categoria}${indice}`}>  
-              {categoria.nome}
+              <li key={`${categoria.titulo}`}>  
+              {categoria.titulo}
               </li>
              );
           })}
         </ul>
-
-        <Link to="/">Ir para home</Link>
 
       </PageDefault>
     );

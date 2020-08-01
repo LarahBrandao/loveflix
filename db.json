@@ -1,40 +1,198 @@
 {
-    "categorias": [
-        {
-            "id": 1,
-            "nome": "Músicas Destaque",
-            "descricao": "Destaques selecionados para você ouvir",
-            "cor": "#141414"
-        },
-        {
-            "id": 2,
-            "nome": "Performances",
-            "descricao": "Performances de vários artistas",
-            "cor": "#141414"
-        },
-        {
-            "id": 3,
-            "nome": "Anos 80",
-            "descricao": "Seleção com as melhores dos Anos 80",
-            "cor": "#141414"
-        },
-        {
-            "id": 4,
-            "nome": "Músicas Indicadas",
-            "descricao": "Algumas indicações para você descobrir novos artistas",
-            "cor": "#141414"
-        },
-        {
-            "id": 5,
-            "nome": "Filmes Indicados",
-            "descricao": "Indicações de filmes de diversos gêneros",
-            "cor": "#141414"
-        },
-        {
-            "id": 6,
-            "nome": "Gameplay",
-            "descricao": "Gameplays de diversos jogos e diferentes gêneros",
-            "cor": "#141414"
-        }
-    ]
+  "categorias": [
+    {
+      "id": 1,
+      "titulo": "Músicas Destaque",
+      "descricao": "Destaques selecionados para você ouvir",
+      "cor": "#000000"
+    },
+    {
+      "id": 2,
+      "titulo": "Performances",
+      "descricao": "Performances de vários artistas",
+      "cor": "#000000"
+    },
+    {
+      "id": 3,
+      "titulo": "Anos 80",
+      "descricao": "Seleção com as melhores dos Anos 80",
+      "cor": "#000000"
+    },
+    {
+      "id": 4,
+      "titulo": "Músicas Indicadas",
+      "descricao": "Algumas indicações para você descobrir novos artistas",
+      "cor": "#000000"
+    },
+    {
+      "id": 5,
+      "titulo": "Filmes Indicados",
+      "descricao": "Indicações de filmes de diversos gêneros",
+      "cor": "#000000"
+    },
+    {
+      "id": 6,
+      "titulo": "Gameplay",
+      "descricao": "Gameplays de diversos jogos e diferentes gêneros",
+      "cor": "#000000"
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "Lauren Jauregui, Tainy - Lento (Official Video)",
+      "url": "https://www.youtube.com/watch?v=NdBHfXgI3hA"
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "Camila Cabello - Never Be the Same",
+      "url": "https://www.youtube.com/watch?v=Ph54wQG8ynk"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "Marshmello & Halsey - Be Kind",
+      "url": "https://www.youtube.com/watch?v=ePao0cTGG-o"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "The Weeknd - In Your Eyes",
+      "url": "https://www.youtube.com/watch?v=dqRZDebPIGs"
+    },
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "titulo": "Fifth Harmony - Work From Home ft. Ty Dolla $ign",
+      "url": "https://www.youtube.com/watch?v=5GL9JoH4Sws"
+    },
+    {
+      "id": 6,
+      "categoriaId": 1,
+      "titulo": "DaBaby - Rockstar feat. Roddy Ricch",
+      "url": "https://www.youtube.com/watch?v=mxFstYSbBmc"
+    },
+    {
+      "id": 7,
+      "categoriaId": 2,
+      "titulo": "Fifth Harmony Cover 'Like I'm Gonna Lose You'",
+      "url": "https://www.youtube.com/watch?v=Dqut0vJhPIw"
+    },
+    {
+      "id": 8,
+      "categoriaId": 2,
+      "titulo": "Camila Cabello - Living Proof (AMA's 2019)",
+      "url": "https://www.youtube.com/watch?v=Z-ciAMdn6CA"
+    },
+    {
+      "id": 9,
+      "categoriaId": 2,
+      "titulo": "Miley Cyrus - Slide Away(VMAs 2019)",
+      "url": "https://www.youtube.com/watch?v=e80tK8DHVtM"
+    },
+    {
+      "id": 10,
+      "categoriaId": 2,
+      "titulo": "Rihanna - VMA's 2016",
+      "url": "https://www.youtube.com/watch?v=p9Ygppti7YI"
+    },
+    {
+      "id": 11,
+      "categoriaId": 2,
+      "titulo": "Superbowl 2020",
+      "url": "https://www.youtube.com/watch?v=pILCn6VO_RU"
+    },
+    {
+      "id": 12,
+      "categoriaId": 3,
+      "titulo": "Cyndi Lauper Girls Just Want To Have Fun",
+      "url": "https://www.youtube.com/watch?v=PIb6AZdTr-A"
+    },
+    {
+      "id": 13,
+      "categoriaId": 3,
+      "titulo": "Bon Jovi - Livin' On A Prayer",
+      "url": "https://www.youtube.com/watch?v=lDK9QqIzhwk"
+    },
+    {
+      "id": 14,
+      "categoriaId": 3,
+      "titulo": "Ritchie - Menina Veneno",
+      "url": "https://www.youtube.com/watch?v=0UQmpHFKNvw"
+    },
+    {
+      "id": 15,
+      "categoriaId": 3,
+      "titulo": "Michael Jackson - Bille Jean",
+      "url": "https://www.youtube.com/watch?v=Zi_XLOBDo_Y"
+    },
+    {
+      "id": 16,
+      "categoriaId": 3,
+      "titulo": "Madonna - Like a Virgin",
+      "url": "https://www.youtube.com/watch?v=s__rX_WL100"
+    },
+    {
+      "id": 17,
+      "categoriaId": 4,
+      "titulo": "CHVRCHES - Forever",
+      "url": "https://www.youtube.com/watch?v=RJdOYscmlyo"
+    },
+    {
+      "id": 18,
+      "categoriaId": 4,
+      "titulo": "Chelsea Collins - Britney 07",
+      "url": "https://www.youtube.com/watch?v=JnxBSPBlzyE"
+    },
+    {
+      "id": 19,
+      "categoriaId": 4,
+      "titulo": "Ally Brooke & Messiah - 500 Veces",
+      "url": "https://www.youtube.com/watch?v=J8F1GzlfiSg"
+    },
+    {
+      "id": 20,
+      "categoriaId": 4,
+      "titulo": "Noah Cyrus - Lonely",
+      "url": "https://www.youtube.com/watch?v=JhvyWCyXuqg"
+    },
+    {
+      "id": 21,
+      "categoriaId": 4,
+      "titulo": "Post Malone - GoodByes ft. Young Thung",
+      "url": "https://www.youtube.com/watch?v=ba7mB8oueCY"
+    },
+    {
+      "id": 22,
+      "categoriaId": 5,
+      "titulo": "Interestellar",
+      "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+    },
+    {
+      "id": 21,
+      "categoriaId": 5,
+      "titulo": "A Origem",
+      "url": "https://www.youtube.com/watch?v=HiixbtN-O24"
+    },
+    {
+      "id": 22,
+      "categoriaId": 5,
+      "titulo": "Knives Out (Entre Facas)",
+      "url": "https://www.youtube.com/watch?v=xi-1NchUqMA"
+    },
+    {
+      "id": 23,
+      "categoriaId": 6,
+      "titulo": "Rise Of The Tomb Raider",
+      "url": "https://www.youtube.com/watch?v=gsplhPETREg"
+    },
+    {
+      "id": 24,
+      "categoriaId": 6,
+      "titulo": "GROUNDED",
+      "url": "https://www.youtube.com/watch?v=XHM-CofXikk"
+    }
+  ]
 }
