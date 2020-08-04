@@ -11,7 +11,7 @@
 
 <a id="sobre"></a>
 
-## :bookmark: Sobre
+## ➞ Sobre
 
 O <strong>LoveFlix</strong> é uma aplicação Web voltada para fins de entreterimento.
 
@@ -21,7 +21,7 @@ Essa aplicação foi construída na <strong>Imersão Alura</strong> distribuída
 
 <a id="tecnologias-utilizadas"></a>
 
-## :rocket: Tecnologias Utilizadas
+## ➞ Tecnologias Utilizadas
 
 O projeto foi desenvolvido utilizando as seguintes tecnologias
 
@@ -29,7 +29,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 
 <a id="como-usar"></a>
 
-## :fire: Como usar
+## ➞ Como usar
 
 1. Faça um clone :
 
