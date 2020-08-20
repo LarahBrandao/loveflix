@@ -1,7 +1,8 @@
 import React, {useEffect, useState} from 'react';
 import BannerMain from '../../components/BannerMain';
 import Carousel from '../../components/Carousel';
-//import PageDefault from '../../components/PageDefault';
+import styled from 'styled-components';
+import PageDefault from '../../components/PageDefault';
 import categoriasRepository from '../../repositories/categorias';
 import Menu from '../../components/Menu';
 import Footer from '../../components/Footer';
@@ -20,14 +21,20 @@ function Home() {
         console.log(err.message)
       } )
   },[]);
+  
+  const Loading = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px;
+  `;
 
   return (
-   // <PageDefault paddingAll={0}>
+   
+ <PageDefault paddingAll={0}>
   
-  <div style={{background: "#141414"}}>
- 
-   <Menu />
-   {dadosIniciais.length === 0 && (<div>Carregando página...</div>)}
+  <Menu />
+   {dadosIniciais.length === 0 && (<Loading> <h1>Carregando página... </h1></Loading>)}
 
       {dadosIniciais.map((categoria, indice) => {
         if (indice === 0) {
@@ -53,9 +60,7 @@ function Home() {
           />
           );
         })}
-        <Footer/>
-    </div>
-
+        </PageDefault>
   );
 }
 
