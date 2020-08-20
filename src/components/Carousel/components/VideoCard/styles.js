@@ -29,3 +29,15 @@ export const VideoCardContainer = styled.a`
     margin-left: 20px;
   }
 `;
+
+export const VideoCardBanner = styled.p`
+  width: 100%;
+  padding: 10px;
+  position: absolute;
+  bottom: -16px;
+  margin-left: -16px;
+  display: none;
+  transition: 300ms;
+  @media (max-width: 800px) {
+    display: inline;
+  }
