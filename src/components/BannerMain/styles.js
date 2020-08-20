@@ -1,16 +1,12 @@
 import styled from 'styled-components';
 
 export const ContentAreaContainer = styled.section`
-  padding-left: 5%;
-  padding-right: 5%;
-  margin: -50px;
-  margin-bottom: 50px;
+  margin-left: 5%;
+  margin-right: 5%;
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #db202c;
-  background-size: cover;
   position: relative;
   z-index: 10;
   @media (max-width: 800px) {
