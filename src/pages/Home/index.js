@@ -4,8 +4,6 @@ import Carousel from '../../components/Carousel';
 import styled from 'styled-components';
 import PageDefault from '../../components/PageDefault';
 import categoriasRepository from '../../repositories/categorias';
-import Menu from '../../components/Menu';
-import Footer from '../../components/Footer';
 
 function Home() {
 
@@ -32,8 +30,6 @@ function Home() {
   return (
    
  <PageDefault paddingAll={0}>
-  
-  <Menu />
    {dadosIniciais.length === 0 && (<Loading> <h1>Carregando página... </h1></Loading>)}
 
       {dadosIniciais.map((categoria, indice) => {
