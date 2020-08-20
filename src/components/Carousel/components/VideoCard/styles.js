@@ -28,6 +28,14 @@ export const VideoCardContainer = styled.a`
   &:not(:first-child) {
     margin-left: 20px;
   }
+
+  &:hover p,
+  &:focus p {
+    display:inline;
+  }
+  @media (max-width: 800px) {
+    opacity: 1
+  }
 `;
 
 export const VideoCardBanner = styled.p`
