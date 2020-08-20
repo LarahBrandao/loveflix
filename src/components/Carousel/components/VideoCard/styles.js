@@ -41,3 +41,4 @@ export const VideoCardBanner = styled.p`
   @media (max-width: 800px) {
     display: inline;
   }
+`
