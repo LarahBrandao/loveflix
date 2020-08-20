@@ -21,11 +21,16 @@ const Container = styled.ul`
   }
   
   .slick-prev {
-    left: 0;
+    left: 15px;
   }
   .slick-next {
-    right: 16px;
+    right: 25px;
   }
+  .slick-prev:before,
+  .slick-next:before {
+    color: var(--primary)
+  }
+}
 `;
 
 export const SliderItem = styled.li`
