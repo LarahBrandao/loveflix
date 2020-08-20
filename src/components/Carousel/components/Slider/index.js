@@ -28,7 +28,7 @@ const Container = styled.ul`
   }
   .slick-prev:before,
   .slick-next:before {
-    color: var(--primary)
+    color: var(--blackLighter)
   }
 }
 `;
